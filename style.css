@@ -22,12 +22,7 @@ li {
 li:first-letter {
   text-transform: capitalize;
 }
-.beach {
-  position: fixed;
-  right: 0;
-  top: 0;
-  width: 100px;
-}
+
 .card-group {
   font-family: "Alkatra", cursive;
   text-align: center;
