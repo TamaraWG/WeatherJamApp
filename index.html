@@ -1,113 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
-      crossorigin="anonymous"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Alkatra&display=swap" rel="stylesheet">
-    <link href="src/styles.css" rel="stylesheet" type="text/css" />
-     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <link rel="stylesheet"  href="src/style.css" /> 
-    <title>Weather</title>
-     </head>
-  <body>
-    <div class="container ">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alkatra&display=swap" rel="stylesheet">
+  <link href="src/styles.css" rel="stylesheet" type="text/css" />
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <link rel="stylesheet" href="src/style.css" />
+  <title>Weather</title>
+</head>
+
+<body>
+  <div class="container ">
+    <div class="weather-app-wrapper">
       <div class="weather-app">
-      <h1>
-        New York
-      </h1>
-      <ul>
-        <li>
-          Thursday 02:00
-        </li>
-        <li>
-          Clear
-        </li>
-      </ul>
-      <div class="row">
-        <div class="col-6">
-          <img src="http://ssl.gstatic.com/onebox/weather/64/sunny.png"
-              alt="Clear"
-              />
-              20°C | °F
-        </div>
-        <div class="col-6">
+        <div class="overview">
+          <h1>
+            New York
+          </h1>
           <ul>
             <li>
-              Precipitation: 0%
+              Thursday 02:00
             </li>
             <li>
-              Wind: 3 km/h
+              Clear
             </li>
           </ul>
         </div>
+        <div class="row">
+          <div class="col-6">
+            <div class="d-flex weather-temperature">
+              <img src="http://ssl.gstatic.com/onebox/weather/64/sunny.png" alt="Clear" class="float-left" />
+              <div class="float-left">
+                <strong> 20</strong>
+                <span class="units">°C | <a href="#">°F</a></span>"
+
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <ul>
+              <li>
+                Precipitation: 0%
+              </li>
+              <li>
+                Wind: 3 km/h
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
+    <div class="card-group">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Weather Quotes</h5>
+          <p class="card-text">
+            Its gonna be a good day! Sunshine and all perhsaps a little rain but just stay prepared! </p>
+          </p>
+        </div>
+      </div>
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-      <div class="card-group">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Weather Quotes</h5>
-            <p class="card-text">
-              Its gonna be a good day! Sunshine and all perhsaps a little rain but just stay prepared!            </p>
-                </p>
-                </div>
-                </div>
-                </div>
     <div class="row">
       <div class="col-8">
-       <div class="container text-center">
-  <div class="row">
-    <div class="col align-self-start">
-      ☁ </br> Monday
-    </div>
-    <div class="col align-self-center">
-       🌤 </br>Tuesday
-    </div>
-    <div class="col align-self-end">
-      🌞
-    </br> Wednesday
-    </div>
-    <div class="col align-self-center">
-      ☀</br>Thursday
-  </div>
-  <div class="col align-self-center">
-      🌧</br> Friday
-</div>
-   <small><a href="https://github.com/TamaraWG/WeatherJamApp" target="_blank">Open-source code</a>, by Tamara Walker-Garricks</small>
- <script src="src/script.js"></script>
-    
-        
-    </div>
-  </body>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col align-self-start">
+              ☁ </br> Monday
+            </div>
+            <div class="col align-self-center">
+              🌤 </br>Tuesday
+            </div>
+            <div class="col align-self-end">
+              🌞
+              </br> Wednesday
+            </div>
+            <div class="col align-self-center">
+              ☀</br>Thursday
+            </div>
+            <div class="col align-self-center">
+              🌧</br> Friday
+            </div>
+            <small><a href="https://github.com/TamaraWG/WeatherJamApp" target="_blank">Open-source code</a>, by Tamara
+              Walker-Garricks</small>
+          </div>
+          <script src="src/script.js"></script>
+
+
+        </div>
+</body>
+
 </html>
