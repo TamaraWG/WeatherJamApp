@@ -22,6 +22,7 @@ li {
   font-weight: 100;
   line-height: 19px;
   color: blueviolet;
+  text-transform: capitalize;
 }
 
 li:first-letter {
