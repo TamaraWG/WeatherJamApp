@@ -22,7 +22,7 @@ li {
   font-weight: 100;
   line-height: 19px;
   color: blueviolet;
-  text-transform: capitalize;
+
 }
 
 li:first-letter {
@@ -54,4 +54,32 @@ li:first-letter {
 
 .overview {
   margin-bottom: 20px;
+}
+
+.weather-temperature img {
+  margin-right: 5px;
+  height: 64px;
+  width: 64px;
+}
+
+.weather-temperature strong {
+  color: limegreen;
+  font-size: 64px;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.weather-temperature .units {
+  position: relative;
+  font-size: 16px;
+  top: -34px;
+}
+
+.weather-temperature .active {
+  color: gray;
+  cursor: default;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
 }
