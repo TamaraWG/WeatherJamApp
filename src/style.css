@@ -39,6 +39,7 @@ li:first-letter {
   color: black;
   font-size: 25px;
   font-family: "Times New Roman", Times, serif;
+  text-align: center;
 }
 
 .weather-app-wrapper {
