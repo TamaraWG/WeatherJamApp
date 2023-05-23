@@ -63,7 +63,7 @@ li:first-letter {
 }
 
 .weather-temperature strong {
-  color: limegreen;
+  color: grey;
   font-size: 64px;
   line-height: 1;
   font-weight: 400;
