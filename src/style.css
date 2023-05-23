@@ -1,8 +1,3 @@
-body {
-  background-image: linear-gradient(to top, lightskyblue 0%, white 100%);
-  color: lightskyblue;
-}
-
 h1 {
   display: block;
   font-family: "Alkatra", cursive;
@@ -42,7 +37,7 @@ li:first-letter {
 
 
 .weather-app-wrapper {
-  max-width: ;
+  max-width: 1000px;
   margin: auto;
 }
 
