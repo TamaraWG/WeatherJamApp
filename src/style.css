@@ -1,7 +1,6 @@
 body {
-  background-image: linear-gradient(to top, lightskyblue 0%, rgb(212, 102, 212) 100%);
+  background-image: linear-gradient(to top, lightskyblue 0%, white 100%);
   color: lightskyblue;
-
 }
 
 h1 {
