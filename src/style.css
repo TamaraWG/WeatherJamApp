@@ -51,6 +51,13 @@ li:first-letter {
   margin-bottom: 20px;
 }
 
+.row {
+  color: black;
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+
 .weather-temperature img {
   margin-right: 5px;
   height: 64px;
