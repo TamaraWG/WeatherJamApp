@@ -1,3 +1,9 @@
+body {
+  background-image: linear-gradient(to top, midnightblue 0%, purple 100%);
+  color: lightskyblue;
+
+}
+
 h1 {
   display: block;
   font-family: "Alkatra", cursive;
