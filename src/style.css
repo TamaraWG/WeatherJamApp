@@ -94,16 +94,16 @@ li:first-letter {
 .weather-forecast {
   margin-top: 20px;
   text-align: center;
-  color: #000;
+  color: #0c0b0b;
 }
 
 .weather-forecast-date {
-  font-size: 16px;
-  opacity: 0.5;
+  font-size: 20px;
+  opacity: 0.9;
 }
 
 .weather-forecast-temperature-min {
-  opacity: 0.5;
+  opacity: 0.9;
 }
 
 .weather-forecast-temperatures {
